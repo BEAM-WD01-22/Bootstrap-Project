@@ -1,0 +1,12 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css');  
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Mynerve', cursive;
+    
+}
+
