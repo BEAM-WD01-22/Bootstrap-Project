@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
 
     <!-- Local CSS -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
 
     <!-- Latest compiled and minified Bootstrap 5.3.0 CSS -->
     <link
@@ -46,7 +46,7 @@
     ></script>
     <style>
       .header {
-        height: 700px;
+        height: 600px;
         width: 100%;
         background-image: url("./css/dmitry-chernyshov-mP7aPSUm7aE-unsplash.jpg");
         background-position: center;
@@ -59,19 +59,35 @@
         color: gold;
         margin-top: 235px;
       }
+      /* .footer {
+        height: 600px;
+        width: 100%;
+        background-image: url("./css/blue-42596.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .footer p {
+        font-size: 20px;
+        font-weight: 800;
+        color: black;
+        
+      } */
     </style>
     ___________________________________________________________________________________________________________
 
     <!-- First section -->
 
-    <nav class="navbar navbar-light bg-light p-5">
+    <!-- <nav class="navbar navbar-light bg-light p-5">
       <div class="container mx-0">
-        <a class="navbar-brand" href="page">Landing page</a>
+        <a class="navbar-brand text-primary-emphasis" href="page"
+          >Landing page</a
+        >
         <a class="btn btn-primary" href="#signup">Sign Up</a>
       </div>
-    </nav>
+    </nav> -->
 
-    <div class="header">
+    <div class="header ">
       <div class="container">
         <div class="row text-center">
           <div class="col-lg-12">
@@ -84,48 +100,183 @@
     <!-- Second section -->
     <!-- Carousel -->
 
-         <div id="carouselExampleCaptions" class="carousel slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="./css/smiley-face-ball-background-sweet-retro-vintage-color.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Smile</h5>
-        <p>Why not seeing the glass half full every day?</p>
+    <div id="carouselExampleCaptions"   class="carousel slide" > 
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
       </div>
-    </div>
-    <div class="carousel-item">
-      <img src="./css/debonair-white-girl-casual-shirt-posing-street-with-computer-outdoor-portrait-enthusiastic-female-student-using-laptop.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Work is fun </h5>
-        <p>Make work fun by doing what you like, code with a smile on your face</p>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./css/smiley-face-ball-background-sweet-retro-vintage-color.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Smile</h5>
+            <p>Why not see the glass half full every day?</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./css/debonair-white-girl-casual-shirt-posing-street-with-computer-outdoor-portrait-enthusiastic-female-student-using-laptop.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Work is fun</h5>
+            <p>
+              Make work fun by doing what you like, code with a smile on your
+              face
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./css/happines-cheerful-perforated-paper-smiley-face.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Be positive</h5>
+            <p>Keep a positive vibe regardless of your project</p>
+          </div>
+        </div>
       </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <div class="carousel-item">
-      <img src="./css/happines-cheerful-perforated-paper-smiley-face.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Be positive</h5>
-        <p>Keep a positive vibe regardless of your project</p>
-      </div>
+    <br />
+    <br />
+    <br>
+    <!-- Section 3  Portfolio-->
+
+    <h1 class="text-center f-1 text-secondary">My learning Portfolio</h1>
+    <h1 class="text-center f-1 text-secondary me-5">"Click" a try!</h1>
+
+    
+   <br>
+   <br>
+   <br>
+
+   <div class="container ext-center mx-0 my-0 px-5 py-5 text-dark">
+        <div class="row">
+            <div class="col height">
+                <a  target="_blank" href="https://beaminstitute.org/"> 
+                    <img src="./css/BIT 2.png" alt="" class="test">
+                </a>
+            </div>
+            <div class="col  height">
+                <a  target="_blank" href="https://www.w3schools.com/html/html_css.asp">
+                    <img src="./css/HTML&CSS.png" class="test" alt="">
+                </a>
+            </div>
+            <div class="col height">
+                <a  target="_blank" href="https://www.radikant.com/wissen/unterschied-ux-ui-design/">
+                    <img src="./css/UI.png" class="test" alt="">
+                </a>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col  height">
+                <a href="https://sass-lang.com/">
+                    <img src="./css/SASS.png" alt="" class="test">
+                </a>
+            </div>
+            <div class="col  height">
+                <a target="_blank" href="https://getbootstrap.com/">
+                  <img src="./css/Bootstrap.jpeg" class="test" alt="">
+                    
+                </a>
+            </div>
+            <div class="col height">
+                <a target="_blank" href="https://tailwindcss.com/">
+                  <img src="./css/Tailwind.png" class="test" alt="">
+                    
+                </a>
+            </div>
+        </div>
     </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+   ___________________________________________________________________________________________________________
 
+              <!-- Section 4 Footer -->
 
-
+                 <footer class=" bg-dark text-white pt-5 pb-4  ">
+               
+                  
+                 <div class="container text-center text-md left">
+                  
+      
+        <div class="row text-center text-md-left">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">How about a nice ending</h5>
+            <p>Is it worth it?</p>
+            <p>Is it hard?</p>
+            <p>Can I do it?</p>
+            <p>Is coding fun?</p>
+            
+         
+    </div>
+    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3" >
+       <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Of course it is</h5>
+       <p>
+        <a target="_blank"  class="text-decoration-none text-white" href="https://www.youtube.com/watch?v=qz0aGYrrlhU">Don't be afraid to think outside the box </a>
         
+       </p>
+       <p>
+        <a  target="_blank"  class="text-decoration-none text-white" href=" https://www.youtube.com/watch?v=wRNinF7YQqQ">Don't be afraid to think outside the box </a>
+        
+       </p>
+       <p>
+        <a  target="_blank"  class="text-decoration-none text-white" href="#">Don't be afraid to think outside the box </a>
+        
+       </p>
+       <p>
+        <a  target="_blank"  class="text-decoration-none text-white" href="#">Don't be afraid to think outside the box </a>
+        
+       </p>
+
+    </div>
+        </div>
+                 </div>
+                  
+                 </footer>
+
 
   </body>
 </html>
