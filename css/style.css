@@ -21,3 +21,13 @@ body{
 .height {
     height: 300px;
 }
+
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+    font-size: 18px ;
+    
+}
+.navbar-light .navbar-brand{
+    color: black;
+    font-size: 30px;
+}
