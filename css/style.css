@@ -5,10 +5,12 @@
 *{
     box-sizing: border-box;
 }
-body{
+
+
+/* body{
     font-family: 'Mynerve', cursive;
     
-}
+} */
 
    
 
@@ -23,13 +25,61 @@ body{
 }
 
 
-.navbar-light .navbar-nav .nav-link{
+.navbar-light .navbar-nav{
     color: black;
     font-size: 18px ;
      
 
 }
-.navbar-light .navbar-brand{
+ .navbar-brand{
     color: black;
     font-size: 30px;
 }
+
+.nav-link:hover{
+    color: aquamarine !important;
+}
+
+.list li a:hover{
+    color:aqua
+
+}
+.list li a{
+    color: white;
+
+}
+
+.list{
+    list-style-type: none;
+}
+li{
+    margin-bottom: 10px;
+}
+h5{
+    margin-left: 25px;
+}
+i:hover{
+    color: aquamarine;
+}
+
+/* i{
+   
+    color: gold;
+}
+p 
+{
+    color: gold;
+} */
+
+.box{
+    width: 40px;
+    height: 5px;
+    background-color:red;
+    margin-left: 7px;
+    margin-right: 20px;
+   
+    
+}
+
+
+
