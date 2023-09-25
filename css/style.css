@@ -7,10 +7,10 @@
 }
 
 
-/* body{
+body{
     font-family: 'Mynerve', cursive;
     
-} */
+}
 
    
 
@@ -82,4 +82,12 @@ p
 }
 
 
-
+@media screen and (min-width :800px)  { 
+    .header,
+    h1 {
+          
+   height: 15rem;
+   
+    }
+    
+}
